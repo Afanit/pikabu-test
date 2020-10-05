@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pikabu-test</string>
+    <string name="no_internet_connection">Нет интернет соединения</string>
+    <string name="no_stories">Лента пуста</string>
+    <string name="no_favorite_stories">Нет избранных постов</string>
+    <string name="no_internet_connection_preview">Показана сохранённая версия поста</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feed_item_space">8dp</dimen>
+    <dimen name="button_size">48dp</dimen>
+    <dimen name="tex_size_medium">20sp</dimen>
+    <dimen name="tex_size_big">30sp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_big">4dp</dimen>
+    <dimen name="story_margin_horizontal">12dp</dimen>
+    <dimen name="mark_width">4dp</dimen>
+    <dimen name="bottom_height">24dp</dimen>
+</resources>
