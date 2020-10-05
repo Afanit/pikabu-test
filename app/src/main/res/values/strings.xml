@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pikabu-test</string>
+    <string name="no_internet_connection">Нет интернет соединения</string>
+    <string name="ok">Понятно</string>
+</resources>
