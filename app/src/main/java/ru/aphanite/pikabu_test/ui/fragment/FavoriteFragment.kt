@@ -1,0 +1,26 @@
+package ru.aphanite.pikabu_test.ui.fragment
+
+import android.content.Context
+import ru.aphanite.pikabu_test.di.activityComponent
+import ru.aphanite.pikabu_test.viewmodel.ActivityViewModel
+
+class FavoriteFragment : StoryFragment() {
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        activityComponent().favoriteComponentBuilder()
+            .build()
+            .inject(this)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        activityViewModel.state = ActivityViewModel.State.FAVORITE
+    }
+
+    override fun isActive(): Boolean {
+        return activityViewModel.state == ActivityViewModel.State.FAVORITE
+    }
+}
